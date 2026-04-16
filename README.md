@@ -31,6 +31,7 @@ DB_PORT=3306
 DB_DATABASE=crud_to_do_list
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 3. Instalasi Dependencies & Migration
 Jika kamu baru saja mengunduh (clone) project ini, jalankan perintah berikut di terminal:
