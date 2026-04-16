@@ -32,28 +32,24 @@ DB_DATABASE=crud_to_do_list
 DB_USERNAME=root
 DB_PASSWORD=
 
-3. Instalasi Dependencies & Migration 
+3. Instalasi Dependencies & Migration
 Jika kamu baru saja mengunduh (clone) project ini, jalankan perintah berikut di terminal:
 
-'''Bash
+Bash
 # Mengunduh library vendor yang diperlukan
 composer install
+
 # Membuat kunci aplikasi
 php artisan key:generate
+
 # Membuat tabel database secara otomatis
 php artisan migrate
 
 4. Menjalankan Server
 Nyalakan server lokal Laravel dengan perintah:
-'''Bash
+
+Bash
 php artisan serve
+
 Setelah itu, buka browser dan akses alamat: http://127.0.0.1:8000
-
-Struktur Kode Utama
-Routing & Logic: routes/web.php
-
-View (Frontend): resources/views/todo.blade.php
-
-Migration: database/migrations/xxxx_create_tasks_table.php
-
 Dibuat dengan bantuan Gemini sebagai panduan belajar Laravel CRUD.
