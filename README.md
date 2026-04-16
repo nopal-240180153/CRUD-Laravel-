@@ -33,24 +33,21 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-3. Instalasi Dependencies & Migration
+### 3. Instalasi Dependencies & Migration
 Jika kamu baru saja mengunduh (clone) project ini, jalankan perintah berikut di terminal:
 
-Bash
-# Mengunduh library vendor yang diperlukan
-composer install
+Mengunduh library vendor yang diperlukan
+`composer install`
 
-# Membuat kunci aplikasi
-php artisan key:generate
+Membuat kunci aplikasi
+`php artisan key:generate`
 
-# Membuat tabel database secara otomatis
-php artisan migrate
+Membuat tabel database secara otomatis
+`php artisan migrate`
 
-4. Menjalankan Server
+### 4. Menjalankan Server
 Nyalakan server lokal Laravel dengan perintah:
-
-Bash
-php artisan serve
+`php artisan serve`
 
 Setelah itu, buka browser dan akses alamat: http://127.0.0.1:8000
 Dibuat dengan bantuan Gemini sebagai panduan belajar Laravel CRUD.
