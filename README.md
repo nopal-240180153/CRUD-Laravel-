@@ -50,4 +50,3 @@ Nyalakan server lokal Laravel dengan perintah:
 `php artisan serve`
 
 Setelah itu, buka browser dan akses alamat: http://127.0.0.1:8000
-Dibuat dengan bantuan Gemini sebagai panduan belajar Laravel CRUD.
